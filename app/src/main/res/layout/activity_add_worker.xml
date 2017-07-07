@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+
+    tools:context="com.coempperu.appmovil.coemptransp.ui.AddWorkerActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:layout_marginBottom="18dp"
+
+        android:text="REGISTRO DE NUEVO TRABAJADOR"
+        android:textSize="22dp" />
+
+
+
+    <EditText
+        android:id="@+id/etDNI"
+        android:hint="DNI"
+        android:inputType="number"
+        android:maxLength="8"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/etFullName"
+        android:hint="Nombre Completo"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/etCelular"
+        android:hint="Celular"
+        android:inputType="number"
+        android:maxLength="9"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/etDomicilio"
+        android:hint="Domicilio"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/etNacimiento"
+        android:hint="Fecha de Nacimiento"
+        android:inputType="date"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/etBrevete"
+        android:hint="Brevete"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/etSCTR"
+        android:hint="SCTR"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btnRegisterWorker"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:background="@color/buttonRegister"
+
+        android:text="REGISTRAR"
+        android:textSize="18dp"/>
+
+
+
+</LinearLayout>

@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">TuCarga</string>
+    <string name="title_activity_menu">MenuActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_logout">Logout</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="show_notifications">Ver anuncios</string>
+    <string name="my_orders">Mis pedidos</string>
+    <string name="new_units">Registrar unidades</string>
+    <string name="new_workers">Registrar trabajadores</string>
+
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

@@ -1,0 +1,190 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.coempperu.appmovil.coemptransp.ui.fragment.WorkersFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <Button
+        android:id="@+id/btnAddWorker"
+        android:text="@string/new_workers"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+    <!--<android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </android.support.v7.widget.RecyclerView>-->
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:layout_marginBottom="18dp"
+        android:layout_marginTop="18dp"
+
+        android:text="NUEVOS ANUNCIOS"
+        android:textSize="18dp" />
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="5pt"
+        android:paddingRight="5pt"
+        >
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:background="@color/colorPrimary">
+
+
+            <TextView
+                android:paddingBottom="10dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:paddingTop="10dp"
+                android:text="DNI"
+                android:textColor="#fff"
+                android:textSize="16sp" />
+
+            <LinearLayout
+                android:layout_width="1dp"
+                android:layout_height="match_parent" >
+
+                <View style="@style/Divider_invisible" />
+            </LinearLayout>
+
+            <TextView
+                android:paddingBottom="10dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:paddingTop="10dp"
+                android:text="Nombre Completo"
+                android:textColor="#fff"
+                android:textSize="16sp"/>
+
+            <LinearLayout
+                android:layout_width="1dp"
+                android:layout_height="match_parent" >
+
+                <View style="@style/Divider_invisible" />
+            </LinearLayout>
+
+            <TextView
+                android:paddingBottom="10dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:paddingTop="10dp"
+                android:text="Celular"
+                android:textColor="#fff"
+                android:textSize="16sp"/>
+
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:background="#fff">
+
+            <TextView
+                android:paddingBottom="10dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:paddingTop="10dp"
+                android:text="Null"
+                android:textColor="#000"
+                android:textSize="16sp" />
+
+            <LinearLayout
+                android:layout_width="1dp"
+                android:layout_height="match_parent" >
+
+                <View style="@style/Divider" />
+            </LinearLayout>
+
+            <TextView
+                android:paddingBottom="10dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:paddingTop="10dp"
+                android:text="Null"
+                android:textColor="#000"
+                android:textSize="16sp" />
+
+            <LinearLayout
+                android:layout_width="1dp"
+                android:layout_height="match_parent" >
+
+                <View style="@style/Divider" />
+            </LinearLayout>
+
+            <TextView
+                android:paddingBottom="10dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:paddingTop="10dp"
+                android:text="Null"
+                android:textColor="#000"
+                android:textSize="16sp" />
+
+
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:background="@color/colorMenu">
+
+            <TextView
+                android:paddingBottom="10dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:paddingTop="10dp"
+                android:text="Null"
+                android:textColor="#000"
+                android:textSize="16sp" />
+
+            <LinearLayout
+                android:layout_width="1dp"
+                android:layout_height="match_parent" >
+
+                <View style="@style/Divider" />
+            </LinearLayout>
+
+            <TextView
+                android:paddingBottom="10dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:paddingTop="10dp"
+                android:text="Null"
+                android:textColor="#000"
+                android:textSize="16sp" />
+
+            <LinearLayout
+                android:layout_width="1dp"
+                android:layout_height="match_parent" >
+
+                <View style="@style/Divider" />
+            </LinearLayout>
+
+            <TextView
+                android:paddingBottom="10dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:paddingTop="10dp"
+                android:text="Null"
+                android:textColor="#000"
+                android:textSize="16sp" />
+
+        </TableRow>
+
+    </TableLayout>
+
+</LinearLayout>

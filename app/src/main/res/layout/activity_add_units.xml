@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context="com.coempperu.appmovil.coemptransp.ui.AddUnitsActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:layout_marginBottom="18dp"
+
+        android:text="REGISTRO DE NUEVA UNIDAD"
+        android:textSize="22dp" />
+
+    <EditText
+        android:id="@+id/etTipo"
+        android:hint="Tipo de Unidad"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/etMarca"
+        android:hint="Marca"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/etModelo"
+        android:hint="Modelo"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/etAño"
+        android:hint="Año"
+        android:maxLength="4"
+        android:inputType="number"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/etEje"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Numero de Ejes"
+
+        android:inputType="number"
+        android:maxLength="1" />
+
+    <EditText
+        android:id="@+id/etColor"
+        android:hint="Color"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/etCilindro"
+        android:hint="Cilindrada"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/etPeso"
+        android:hint="Peso Bruto (Tonelada)"
+        android:inputType="number"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/etCarga"
+        android:hint="Carga Util (Tonelada)"
+        android:inputType="number"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/etCapacidad"
+        android:hint="Capacidad de Carga (Tonelada)"
+        android:inputType="number"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/etPTracto"
+        android:hint="Placa de tracto"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/etMTracto"
+        android:hint="MTC Tracto"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/etPCarreta"
+        android:hint="Placa Carreta"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/etMCarreta"
+        android:hint="MTC Carreta"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/etSOAT"
+        android:hint="SOAT"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/etVencimiento"
+        android:hint="Fecha de vencimiento de SOAT"
+        android:inputType="date"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/etSeguro"
+        android:hint="Nº de Seguro"
+        android:inputType="number"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:text="Medidas"
+        android:textSize="16dp" />
+
+    <EditText
+        android:id="@+id/etLargo"
+        android:hint="Largo"
+        android:inputType="numberDecimal"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/etAncho"
+        android:hint="Ancho"
+        android:inputType="numberDecimal"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/etAlto"
+        android:hint="Alto"
+        android:inputType="numberDecimal"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btnRegisterUnits"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="18dp"
+        android:background="@color/buttonRegister"
+
+        android:text="REGISTRAR"
+        android:textSize="18dp"/>
+
+
+</LinearLayout>
