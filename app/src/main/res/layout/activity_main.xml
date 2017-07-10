@@ -24,7 +24,7 @@
         android:textSize="16dp" />
 
     <EditText
-        android:id="@+id/etCorreo"
+        android:id="@+id/etEmail"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
 

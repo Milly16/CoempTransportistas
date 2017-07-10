@@ -27,10 +27,10 @@ public class UnitsFragment extends Fragment implements View.OnClickListener {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        View v = inflater.inflate(R.layout.fragment_workers, container, false);
+        View v = inflater.inflate(R.layout.fragment_units, container, false);
 
-        Button btnAddWorker = (Button) v.findViewById(R.id.btnAddWorker);
-        btnAddWorker.setOnClickListener(this);
+        Button btnAddUnits = (Button) v.findViewById(R.id.btnAddUnits);
+        btnAddUnits.setOnClickListener(this);
 
         return  v;
 

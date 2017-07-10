@@ -4,6 +4,9 @@
     <color name="colorPrimaryDark">#121D2E</color>
     <color name="colorAccent">#FF4081</color>
 
+    <color name="white">#fff</color>
+    <color name="black">#000</color>
+
     <color name="colorMenu">#f5cf74</color>
     <color name="label">#000</color>
 
