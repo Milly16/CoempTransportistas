@@ -1,6 +1,7 @@
 package com.coempperu.appmovil.coemptransp.io;
 
 import com.coempperu.appmovil.coemptransp.io.responses.LoginResponse;
+import com.coempperu.appmovil.coemptransp.io.responses.UnitsResponse;
 
 import retrofit2.Call;
 import retrofit2.http.Field;
@@ -36,5 +37,30 @@ public interface MyApiService {
 //            @Field("name") String name,
 //            @Field("description") String description
 //    );
+
+    @FormUrlEncoded
+    @POST("PostUnits.php")
+    Call<UnitsResponse> postNewUnits(
+            @Field("tipo") String tipo,
+            @Field("marca") String marca,
+            @Field("modelo") String modelo,
+            @Field("anio") String anio,
+            @Field("placatracto") String placatracto,
+            @Field("mtctracto") String mtctracto,
+            @Field("placacarreta") String placacarreta,
+            @Field("mtccarreta") String mtccarreta,
+            @Field("color") String color,
+            @Field("cilindro") String cilindro,
+            @Field("eje") String eje,
+            @Field("peso") String peso,
+            @Field("carga") String carga,
+            @Field("capacidad") String capacidad,
+            @Field("soat") String soat,
+            @Field("seguro") String seguro,
+            @Field("fecha") String fecha,
+            @Field("largo") String largo,
+            @Field("ancho") String ancho,
+            @Field("alto") String alto
+    );
 
 }
